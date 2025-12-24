@@ -75,6 +75,19 @@ ul li {
     margin: 8px 0;
 }
 
+hr {
+    margin: 24px 0;
+}
+
+ol {
+  padding-left: 1.5rem;
+  list-style-position: outside;
+}
+
+ol li {
+    margin: 8px 0;
+}
+
 footer {
     background-color: var(--Stone-100);
     color: var(--Stone-100);
