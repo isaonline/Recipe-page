@@ -88,6 +88,32 @@ ol li {
     margin: 8px 0;
 }
 
+ol li::marker {
+    font-weight: 600;
+}
+
+table {
+    margin: 24px 32px;
+    border-collapse: collapse;
+}
+
+td {
+    position: relative;
+    padding: 12px 0;
+    padding-right: 72px;
+    font-weight: 600;
+}
+
+td.tcontent::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -32px;
+    right: -24px;
+    height: 1px;
+    background-color: var(--Stone-150);
+}
+
 footer {
     background-color: var(--Stone-100);
     color: var(--Stone-100);
